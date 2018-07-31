@@ -1,0 +1,78 @@
+/* Tag Selector */
+h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+    color: yellow;
+}
+
+body {
+    font-family: sans-serif;
+    font-style: italic;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: italic;
+    display: block;
+    font-weight: bold;
+}
+
+/* Class Selectors */
+li[class=Font1] {
+	color: orange;
+	font-family: fantasy;
+	font-size: 30px;
+}
+li[class=Font2] {
+	color: red;
+	font-family: fantasy;
+	font-size: 20px;
+}
+li[class=Font3] {
+	color: black;
+	font-family: fantasy;
+	font-size: 15px;
+}
+
+.firstParagraph {
+	display: flex;
+	font-size: 10px;
+}
+
+.boxes {
+	background-color: black;
+	color: yellow;
+	border: 2px solid yellow;
+	padding: 20px 20px;
+	text-align: center;
+}
+
+.fontColor {
+	font-size: 15px;
+	color: yellow;
+}
+/* ID Selectors */
+#exploreProp {
+	font-size: 30px;
+	font-family: monospace;
+	font-weight: bolder;
+}
+
+#exploreFonts {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+#h2	{
+	font-size: 13px;
+	font-family: sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    color: red;
+}
+
